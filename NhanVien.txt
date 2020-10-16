@@ -1,0 +1,2 @@
+MaNV	TenNV	Tuoi	MaPB	TenPB	MaKhoa	TenKhoa	
+321	ewq	32	ewq	eqw	ewq	ewq	
