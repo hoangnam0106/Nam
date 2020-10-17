@@ -1,3 +1,6 @@
+
+import java.io.Serializable;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,11 +11,11 @@
  *
  * @author Admin
  */
-public class PhongBan extends NhanVien{
+public class PhongBan extends NhanVien implements Serializable{
     private String maPB;
     private String tenPB;
-    public PhongBan(String ma, String ten, int tuoi, String maPB, String tenPB) {
-        super(ma, ten, tuoi);
+    public PhongBan(String ma, String ten, String maPB, String tenPB) {
+        super(ma, ten);
         this.maPB = maPB;
         this.tenPB = tenPB;
     }
